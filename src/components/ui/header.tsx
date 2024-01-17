@@ -25,6 +25,18 @@ export default function Header() {
           isActive={path === "/random" ? true : false}
         />
       </Link>
+      <Link href="/exercicio">
+        <Button
+          name="Exercicios"
+          isActive={path === "/exercicio" ? true : false}
+        />
+      </Link>
+      <Link href="/login">
+        <Button name="Login" isActive={path === "/login" ? true : false} />
+      </Link>
+      <Link href="/calc">
+        <Button name="Calc" isActive={path === "/calc" ? true : false} />
+      </Link>
     </div>
   );
 }
